@@ -1,7 +1,7 @@
 Email tool for TinkerSoc
 =====
 
-# Template #
+## Template ##
 
 `{{markdown}}` is replaced with the plaintext version of the markdown,
 this is for the text-only part of the email (eg for command line email
@@ -11,13 +11,13 @@ users).
 rich emails.
 
 
-# Dependencies #
+## Dependencies ##
 
 1. pandoc
 2. mailx
 
 
-# Usage #
+## Usage ##
 
 ```
 ./emailMarkdown.sh <markdown> <template> | mailx -s "SUBJECT" -a \
